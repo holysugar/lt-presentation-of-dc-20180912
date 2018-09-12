@@ -1,0 +1,17 @@
+# FizzBuzz
+
+  $ echo 20 | xargs -I {} dc -e '
+  [[Fizz]n10P2Q]sA
+  [[Buzz]n10P2Q]sB
+  [[Fizz Buzz]n10P2Q]sC
+  [n10P]sD
+  [sZ0sXlMx]sF
+  [lX15%0=ClX5%0=BlX3%0=AlXlDx]sG
+  [lX1+sXlGxlZlX<M]sM
+  {} lFx'
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+# A: print fizz and break 2 level
+[[Fizz]n10P2Q]sA
+# B: print buzz and break 2 level
+[[Buzz]n10P2Q]sB
+# C: print fizzbuzz and break 2 level
+[[Fizz Buzz]n10P2Q]sC
+# D: take stack top number and print
+[n10P]sD
+
+# F: Init (counter X = 1 / end Z = stack top)
+[sZ 0 sX lMx]sF
+
+# G: calculate fizzbuzz of register X
+[lX 15 % 0 =C lX 5 % 0 =B lX 3 % 0=A lX lDx]sG
+
+# M: Main loop
+[lX 1+ sX lGx lZ lX !>M]sM
+
+# lFx lBx lZx 999 lVx
+
+15 lFx

@@ -1,0 +1,18 @@
+# 文字列も扱える
+
+  [ ] で囲んだ中の内容は文字列。
+  スタックにも乗る
+
+  $ dc -e '[Hello, world!]p'
+  Hello, world!
+
+  - [Hello, world]: [Hello, world!]
+    文字列をスタックに乗せる
+    <[Hello, world]>
+  - p: スタックの先頭の値を出力する
+
+
+
+
+
+
